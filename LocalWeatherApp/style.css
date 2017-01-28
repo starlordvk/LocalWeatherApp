@@ -1,0 +1,49 @@
+body{
+	background-image:url("https://unsplash.com/search/rain?photo=VR0s3Yqm2RA"); 
+}
+.weather-box{
+	 width:600px;
+	 height:auto;
+ /* display:table; */
+ /* background-color:#212121;*/
+ background-color: rgba(117,117,117, 0.5);
+  margin:8% auto auto auto;
+  padding:40px 50px;
+  color:#fff;
+}
+
+.top-left{
+	float: left;
+	height:50%;
+	width:40%;
+	display:inline-block;
+	text-align: left;
+	/*padding: 40px 0 0 50px;*/
+}
+
+.top-right{
+	height: 50%;
+	width:60%;
+	float:right;
+	display: inline-block;
+	text-align: right;
+}
+
+.vertical-half-divider {
+  width: 3px;
+  position: absolute;
+  height: 167px;
+  background-color: #263238;
+  float: right;
+  display: inline-block;
+  padding: 0;
+}
+
+#temp{
+	display: inline-block;
+	clear:none;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: Roboto,sans-serif;
+}

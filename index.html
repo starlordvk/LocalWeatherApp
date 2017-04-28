@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WeatherApp</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Bootstrap-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- My Css file -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/font/weathericons-regular-webfont.svg">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="loadin text-center" style="margin:20px">
+			<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+			<h3 class="loading-location" style="display: inline">Loading...</h3>
+		</div>
+
+
+<div class="container-fluid weather-box">
+	
+
+<div class="top">
+	<div class="row">
+		<div class="col-md-8">
+			<div >
+				<div class="row">
+					<div class="col-xs-6" >
+						<h2 id="curr-temperature"></h2>
+						<h5 class="max-temp">25</h5>
+						<h5 class="min-temp">35</h5>
+					</div>
+
+					<div class="col-xs-4" style="text-align: center">
+				<i class="wi" style="font-size:5em;" id="weather-main-icon"></i>
+				<h5 class="description"></h5>
+			</div>
+					
+					
+				</div>
+			</div>
+			<h3 id=city>City</h3s>
+		</div>
+
+		<div class="col-md-4">
+			<div class="other-details-key">
+			<div class="row">
+				
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="wi wi-windy" style="font-size:1.5em;"></i>
+					</div>
+					<div class="col-xs-6">
+						<p class="wind-speed">0</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="wi wi-humidity" style="font-size:1.5em;"></i>
+					</div>
+					<div class="col-xs-6">
+						<p class="humidity">0</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="wi wi-barometer" style="font-size:1.5em;"></i>
+					</div>
+					<div class="col-xs-6">
+						<p class="pressure">0</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+						<i class="wi wi-sunrise" style="font-size:1.5em;"></i>
+					</div>
+					<div class="col-xs-6">
+						
+        			<p class="sunrise-time">0:00</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+							<i class="wi wi-sunset" style="font-size:1.5em;"></i>
+					</div>
+					<div class="col-xs-6">
+						<p class="sunset-time">0:00</p>
+					</div>
+				</div>
+
+						
+        			
+       			 	
+        			
+        		
+				
+				
+
+			</div>
+        		
+      		</div>
+     		 
+		</div>
+	</div>
+</div>
+
+<div class="bottom">
+		<div class="row">
+			<div class="col-xs-4">
+				<h4 id="day">Day</h4>
+				<h5 id="date">Date</h5>
+			
+			</div>
+
+			
+			
+		</div>
+	</div>
+
+
+
+	
+
+	
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
+
